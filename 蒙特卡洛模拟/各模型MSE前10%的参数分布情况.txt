@@ -1,0 +1,548 @@
+lasso_bayes_lasso.csv
+eps_lasso 0.0001 0.0100
+mse        50.0%  50.0%
+n_alphas_lasso    250    450
+mse             50.0%  50.0%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+lasso_LGB_lasso.csv
+eps_lasso 0.0001 0.0100
+mse        50.0%  50.0%
+n_alphas_lasso    350    450
+mse             50.0%  50.0%
+num_iterations_LGB     100     200
+mse                 44.71%  55.29%
+learning_rate_LGB     0.1     0.2
+mse                55.29%  44.71%
+reg_lambda_LGB      3       5       7      9
+mse             3.53%  11.76%  24.71%  60.0%
+min_child_samples_LGB    16      48      80     112
+mse                    3.53%  11.76%  24.71%  60.0%
+num_leaves_LGB    16      48      80     112
+mse             3.53%  11.76%  24.71%  60.0%
+colsample_bytree_LGB     0.5     0.7     0.9
+mse                   43.53%  30.59%  25.88%
+subsample_LGB     0.5     0.7     0.9
+mse            43.53%  30.59%  25.88%
+max_depth_LGB       3       5       7      9
+mse            51.76%  27.06%  15.29%  5.88%
+max_bin_LGB     48      80      112    144
+mse          51.76%  27.06%  15.29%  5.88%
+reg_alpha_LGB    0.01    0.10    1.00
+mse            29.41%  29.41%  41.18%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+lasso_random_lasso.csv
+eps_lasso  0.0001  0.0100
+mse        42.86%  57.14%
+n_alphas_lasso     350     450
+mse             57.14%  42.86%
+n_estimators_random     50      100
+mse                  57.14%  42.86%
+min_samples_split_random      3      5      7      9
+mse                       25.0%  25.0%  25.0%  25.0%
+max_features_random     0.5     0.7
+mse                  85.71%  14.29%
+max_samples_random     0.5     0.7
+mse                 85.71%  14.29%
+max_depth_random      3       5       7       9
+mse               7.14%  21.43%  28.57%  42.86%
+min_samples_leaf_random    16      48      80      112
+mse                      7.14%  21.43%  28.57%  42.86%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+lasso_XGB_lasso.csv
+eps_lasso 0.0001 0.0100
+mse        50.0%  50.0%
+n_alphas_lasso    350    450
+mse             50.0%  50.0%
+n_estimators_XGB     100     200
+mse               44.19%  55.81%
+learning_rate_XGB     0.1     0.2
+mse                55.81%  44.19%
+max_depth_XGB       3       5       7       9
+mse            24.42%  24.42%  24.42%  26.74%
+reg_lambda_XGB       3       5       7       9
+mse             24.42%  24.42%  24.42%  26.74%
+subsample_XGB     0.5     0.7     0.9
+mse            16.28%  27.91%  55.81%
+colsample_bytree_XGB     0.5     0.7     0.9
+mse                   16.28%  27.91%  55.81%
+min_child_weight_XGB     48      80      112
+mse                   16.28%  55.81%  27.91%
+reg_alpha_XGB    0.01    0.10    1.00
+mse            32.56%  33.72%  33.72%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+lasso_逻辑回归_lasso.csv
+eps_lasso  0.0001  0.0100
+mse        33.33%  66.67%
+n_alphas_lasso     350     450
+mse             66.67%  33.33%
+penalty_逻辑回归      l1      l2
+mse           33.33%  66.67%
+C_逻辑回归     0.1     1.0
+mse     66.67%  33.33%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+LGB_bayes_lasso.csv
+max_depth_LGB       5      7       9
+mse            29.11%  33.8%  37.09%
+num_iterations_LGB     100     200
+mse                 43.19%  56.81%
+learning_rate_LGB     0.1     0.2
+mse                56.81%  43.19%
+num_leaves_LGB    32      64      96      128
+mse             21.6%  34.74%  33.33%  10.33%
+min_child_samples_LGB    32      64      96      128
+mse                    21.6%  34.74%  33.33%  10.33%
+reg_lambda_LGB   5.0     10.0    15.0    20.0
+mse             21.6%  34.74%  33.33%  10.33%
+subsample_LGB     0.5     0.7     0.9
+mse            66.67%  22.07%  11.27%
+colsample_bytree_LGB     0.5     0.7     0.9
+mse                   66.67%  22.07%  11.27%
+max_bin_LGB     16      48      80      112     144
+mse          16.43%  26.76%  14.55%  20.19%  22.07%
+reg_alpha_LGB    0.01   0.10    1.00
+mse            34.27%  33.8%  31.92%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+LGB_LGB_lasso.csv
+min_child_samples_LGBC      10      14      18
+mse                     51.59%  26.38%  22.03%
+num_leaves_LGBC      10      14      18
+mse              51.59%  26.38%  22.03%
+reg_lambda_LGBC  1.5625  2.1875  2.8125
+mse              51.59%  26.38%  22.03%
+learning_rate_LGBR     0.1     0.2
+mse                 57.97%  42.03%
+num_iterations_LGBR     100     200
+mse                  42.03%  57.97%
+num_leaves_LGBR     32      64      96     128
+mse              24.64%  46.96%  26.96%  1.45%
+min_child_samples_LGBR     32      64      96     128
+mse                     24.64%  46.96%  26.96%  1.45%
+reg_lambda_LGBR    5.0     10.0    15.0   20.0
+mse              24.64%  46.96%  26.96%  1.45%
+subsample_LGBR     0.5     0.7     0.9
+mse             38.84%  28.12%  33.04%
+colsample_bytree_LGBR     0.5     0.7     0.9
+mse                    38.84%  28.12%  33.04%
+subsample_LGBC     0.5     0.7     0.9
+mse             33.04%  28.12%  38.84%
+colsample_bytree_LGBC     0.5     0.7     0.9
+mse                    33.04%  28.12%  38.84%
+max_bin_LGBR     48      80      112     144
+mse           25.22%  30.72%  22.32%  21.74%
+max_bin_LGBC     48      80      112     144
+mse           25.22%  30.72%  22.32%  21.74%
+max_depth_LGBR       3       5       7       9
+mse             25.22%  30.72%  22.32%  21.74%
+max_depth_LGBC       3       5       7       9
+mse             25.22%  30.72%  22.32%  21.74%
+reg_alpha_LGBR    0.01    0.10   1.00
+mse             28.41%  31.59%  40.0%
+reg_alpha_LGBC    0.01    0.10   1.00
+mse             28.41%  31.59%  40.0%
+learning_rate_LGBC   0.05   0.10
+mse                 51.3%  48.7%
+num_iterations_LGBC    100    200
+mse                  48.7%  51.3%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+LGB_random_lasso.csv
+max_depth_LGB       5       7       9
+mse            27.91%  35.66%  36.43%
+n_estimators_random     50      100
+mse                  36.43%  63.57%
+learning_rate_LGB     0.1     0.2
+mse                63.57%  36.43%
+num_iterations_LGB     100     200
+mse                 36.43%  63.57%
+min_samples_split_random    16      32      48
+mse                       3.1%  61.24%  35.66%
+num_leaves_LGB    32      64      96
+mse             3.1%  61.24%  35.66%
+min_child_samples_LGB    32      64      96
+mse                    3.1%  61.24%  35.66%
+reg_lambda_LGB    5       10      15
+mse             3.1%  61.24%  35.66%
+subsample_LGB     0.5     0.7     0.9
+mse            30.23%  31.78%  37.98%
+colsample_bytree_LGB     0.5     0.7     0.9
+mse                   30.23%  31.78%  37.98%
+max_features_random     0.5     0.7     0.9
+mse                  37.98%  31.78%  30.23%
+max_samples_random     0.5     0.7     0.9
+mse                 37.98%  31.78%  30.23%
+max_depth_random       5       7       9
+mse               20.16%  39.53%  40.31%
+max_bin_LGB     80      112     144
+mse          20.16%  39.53%  40.31%
+min_samples_leaf_random     80      112     144
+mse                      20.16%  39.53%  40.31%
+reg_alpha    0.01    0.10    1.00
+mse        32.56%  32.56%  34.88%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+LGB_XGB_lasso.csv
+max_depth_XGB      5       7       9
+mse            25.0%  31.94%  43.06%
+reg_lambda_XGB      5       7       9
+mse             25.0%  31.94%  43.06%
+num_iterations_LGB     100     200
+mse                 31.02%  68.98%
+n_estimators_XGB     100     200
+mse               31.02%  68.98%
+learning_rate_LGB     0.1     0.2
+mse                68.98%  31.02%
+learning_rate_XGB     0.1     0.2
+mse                68.98%  31.02%
+num_leaves_LGB     32      64      96     128
+mse             24.54%  37.04%  36.57%  1.85%
+min_child_samples_LGB     32      64      96     128
+mse                    24.54%  37.04%  36.57%  1.85%
+reg_lambda_LGB    5.0     10.0    15.0   20.0
+mse             24.54%  37.04%  36.57%  1.85%
+subsample_LGB     0.5     0.7     0.9
+mse            13.89%  27.78%  58.33%
+colsample_bytree_LGB     0.5     0.7     0.9
+mse                   13.89%  27.78%  58.33%
+subsample_XGB     0.5     0.7     0.9
+mse            58.33%  27.78%  13.89%
+colsample_bytree_XGB     0.5     0.7     0.9
+mse                   58.33%  27.78%  13.89%
+min_child_weight_XGB     6       10      14      18
+mse                   12.5%  12.04%  31.02%  44.44%
+max_bin_LGB    48      80      112     144
+mse          12.5%  12.04%  31.02%  44.44%
+max_depth_LGB     5       7       9       11
+mse            12.5%  12.04%  31.02%  44.44%
+reg_alpha_LGB    0.01    0.10    1.00
+mse            29.17%  27.31%  43.52%
+reg_alpha_XGB    0.01    0.10    1.00
+mse            29.17%  27.31%  43.52%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+LGB_逻辑回归_lasso.csv
+max_depth_LGB       7       9
+mse            47.22%  52.78%
+min_child_samples_LGB      6       10
+mse                    47.22%  52.78%
+num_leaves_LGB      6       10
+mse             47.22%  52.78%
+num_iterations_LGB    100    200
+mse                 50.0%  50.0%
+learning_rate_LGB    0.1    0.2
+mse                50.0%  50.0%
+penalty_逻辑回归      l1      l2
+mse           56.48%  43.52%
+subsample_LGB     0.5     0.7     0.9
+mse            30.56%  33.33%  36.11%
+colsample_bytree_LGB     0.5     0.7     0.9
+mse                   30.56%  33.33%  36.11%
+reg_lambda_LGB      1       3       5       7      9
+mse             28.7%  20.37%  12.04%  31.48%  7.41%
+max_bin_LGB    16      48      80      112    144
+mse          28.7%  20.37%  12.04%  31.48%  7.41%
+reg_alpha_LGB    0.01    0.10    1.00
+mse            47.22%  29.63%  23.15%
+C_逻辑回归    0.1     1.0     10.0
+mse     47.22%  29.63%  23.15%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+random_bayes_lasso.csv
+n_estimators_random     50      100
+mse                  38.89%  61.11%
+min_samples_split_random     16      32      48
+mse                       50.0%  27.78%  22.22%
+max_features_random     0.5     0.7    0.9
+mse                  11.11%  38.89%  50.0%
+max_samples_random     0.5     0.7    0.9
+mse                 11.11%  38.89%  50.0%
+max_depth_random      5       7       9
+mse               5.56%  33.33%  61.11%
+min_samples_leaf_random      5       7       9
+mse                      5.56%  33.33%  61.11%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+random_LGB_lasso.csv
+num_leaves_LGB      10      14
+mse             65.89%  34.11%
+min_child_samples_LGB      10      14
+mse                    65.89%  34.11%
+max_depth_random       3       5
+mse               34.11%  65.89%
+max_depth_LGB       3       5
+mse            34.11%  65.89%
+n_estimators_random     50      100
+mse                  32.56%  67.44%
+learning_rate_LGB     0.1     0.2
+mse                67.44%  32.56%
+num_iterations_LGB     100     200
+mse                 32.56%  67.44%
+reg_lambda_LGB       1       3       5
+mse             30.23%  37.98%  31.78%
+min_samples_split_random      16      48      80
+mse                       30.23%  37.98%  31.78%
+max_features_random     0.5     0.7     0.9
+mse                  33.33%  30.23%  36.43%
+max_samples_random     0.5     0.7     0.9
+mse                 33.33%  30.23%  36.43%
+subsample_LGB     0.5     0.7     0.9
+mse            36.43%  30.23%  33.33%
+colsample_bytree_LGB     0.5     0.7     0.9
+mse                   36.43%  30.23%  33.33%
+min_samples_leaf_random       3       5       7       9
+mse                      11.63%  39.53%  31.01%  17.83%
+max_bin_LGB     48      80      112     144
+mse          11.63%  39.53%  31.01%  17.83%
+reg_alpha_LGB    0.01    0.10    1.00
+mse            33.33%  30.23%  36.43%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+random_random_lasso.csv
+min_samples_split_randomc      16      48      80
+mse                        42.59%  40.74%  16.67%
+n_estimators_randomr    50     100
+mse                   53.7%  46.3%
+n_estimators_randomc    50     100
+mse                   46.3%  53.7%
+max_depth_randomr     7      9
+mse                3.7%  96.3%
+max_depth_randomc     7      9
+mse                3.7%  96.3%
+min_samples_split_randomr     16    48
+mse                        96.3%  3.7%
+max_features_randomr     0.5     0.7    0.9
+mse                   12.96%  37.04%  50.0%
+max_samples_randomr     0.5     0.7    0.9
+mse                  12.96%  37.04%  50.0%
+max_features_randomc    0.5     0.7     0.9
+mse                   50.0%  37.04%  12.96%
+max_samples_randomc    0.5     0.7     0.9
+mse                  50.0%  37.04%  12.96%
+min_samples_leaf_randomr       1       3       5       7       9
+mse                       16.67%  22.22%  18.52%  27.78%  14.81%
+min_samples_leaf_randomc       1       3       5       7       9
+mse                       16.67%  22.22%  18.52%  27.78%  14.81%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+random_XGB_lasso.csv
+max_depth_XGB       5       7       9
+mse            33.14%  27.91%  38.95%
+reg_lambda_XGB       5       7       9
+mse             33.14%  27.91%  38.95%
+n_estimators_random     50      100
+mse                  13.95%  86.05%
+n_estimators_XGB     100     200
+mse               13.95%  86.05%
+learning_rate_XGB     0.1     0.2
+mse                86.05%  13.95%
+min_samples_split_random     16      48      80     112
+mse                       40.12%  33.14%  21.51%  5.23%
+max_features_random     0.5     0.7     0.9
+mse                  20.35%  52.33%  27.33%
+max_samples_random     0.5     0.7     0.9
+mse                 20.35%  52.33%  27.33%
+subsample_XGB     0.5     0.7     0.9
+mse            27.33%  52.33%  20.35%
+colsample_bytree_XGB     0.5     0.7     0.9
+mse                   27.33%  52.33%  20.35%
+min_samples_leaf_random       5       7       9
+mse                      19.19%  45.35%  35.47%
+max_depth_random       5       7       9
+mse               19.19%  45.35%  35.47%
+min_child_weight_XGB       5       7       9
+mse                   19.19%  45.35%  35.47%
+reg_alpha_XGB    0.01    0.10    1.00
+mse            25.58%  31.98%  42.44%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+random_逻辑回归_lasso.csv
+n_estimators_random    50      100
+mse                  3.57%  96.43%
+penalty_逻辑回归      l1      l2
+mse           42.86%  57.14%
+max_features_random     0.5     0.7     0.9
+mse                  35.71%  35.71%  28.57%
+max_samples_random     0.5     0.7     0.9
+mse                 35.71%  35.71%  28.57%
+min_samples_leaf_random       5       7
+mse                      57.14%  42.86%
+max_depth_random       5       7
+mse               57.14%  42.86%
+min_samples_split_random      48      80
+mse                       57.14%  42.86%
+C_逻辑回归    0.1     1.0     10.0
+mse     21.43%  42.86%  35.71%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+XGB_bayes_lasso.csv
+max_depth_XGB      3      5       7       9
+mse            4.17%  37.5%  29.17%  29.17%
+reg_lambda_XGB      3      5       7       9
+mse             4.17%  37.5%  29.17%  29.17%
+n_estimators_XGB     100     200
+mse               80.56%  19.44%
+learning_rate_XGB    0.05    0.10
+mse                19.44%  80.56%
+subsample_XGB     0.7     0.9
+mse            58.33%  41.67%
+colsample_bytree_XGB     0.7     0.9
+mse                   58.33%  41.67%
+min_child_weight_XGB    16      48      80     112     144
+mse                   37.5%  29.17%  15.28%  1.39%  16.67%
+reg_alpha_XGB    0.01    0.10    1.00
+mse            34.72%  33.33%  31.94%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+XGB_LGB_lasso.csv
+max_depth_XGB       5       7       9
+mse            42.73%  26.45%  30.81%
+reg_lambda_XGB       5       7       9
+mse             42.73%  26.45%  30.81%
+reg_lambda_LGB  1.5625  2.1875  2.8125
+mse             42.73%  26.45%  30.81%
+learning_rate_XGB    0.05    0.10
+mse                38.95%  61.05%
+n_estimators_XGB     100     200
+mse               61.05%  38.95%
+num_leaves_LGB     32      64      96      128
+mse             10.17%  30.52%  24.13%  35.17%
+min_child_samples_LGB     32      64      96      128
+mse                    10.17%  30.52%  24.13%  35.17%
+subsample_XGB    0.5     0.7     0.9
+mse            43.6%  30.52%  25.87%
+colsample_bytree_XGB    0.5     0.7     0.9
+mse                   43.6%  30.52%  25.87%
+subsample_LGB     0.5     0.7    0.9
+mse            25.87%  30.52%  43.6%
+colsample_bytree_LGB     0.5     0.7    0.9
+mse                   25.87%  30.52%  43.6%
+max_depth_LGB       5      7       9
+mse            56.69%  18.9%  24.42%
+min_child_weight_XGB     80     112     144
+mse                   56.69%  18.9%  24.42%
+max_bin_LGB     80     112     144
+mse          56.69%  18.9%  24.42%
+reg_alpha_XGB    0.01    0.10    1.00
+mse            36.63%  32.85%  30.52%
+reg_alpha_LGB    0.01    0.10    1.00
+mse            36.63%  32.85%  30.52%
+learning_rate_XGB.1    0.05    0.10
+mse                  48.55%  51.45%
+num_iterations_LGB     100     200
+mse                 51.45%  48.55%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+XGB_random_lasso.csv
+max_depth_XGB       3       5       7       9
+mse            24.48%  25.17%  25.17%  25.17%
+reg_lambda_XGB       3       5       7       9
+mse             24.48%  25.17%  25.17%  25.17%
+n_estimators_XGB     100     200
+mse               62.59%  37.41%
+n_estimators_random     100     200
+mse                  62.59%  37.41%
+learning_rate_XGB    0.05    0.10
+mse                37.41%  62.59%
+min_samples_split_random     16      32      48
+mse                       50.0%  37.41%  12.59%
+min_samples_leaf_random     16      32      48
+mse                      50.0%  37.41%  12.59%
+subsample_XGB     0.5     0.7
+mse            62.94%  37.06%
+colsample_bytree_XGB     0.5     0.7
+mse                   62.94%  37.06%
+max_features_random     0.7     0.9
+mse                  37.06%  62.94%
+max_samples_random     0.7     0.9
+mse                 37.06%  62.94%
+max_depth_random       5       7       9
+mse               32.87%  33.57%  33.57%
+min_child_weight_XGB     80      112     144
+mse                   32.87%  33.57%  33.57%
+reg_alpha_XGB    0.01    0.10    1.00
+mse            33.57%  33.57%  32.87%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+XGB_XGB_lasso.csv
+max_depth_XGBR       5       7       9
+mse             33.91%  33.33%  32.75%
+reg_lambda_XGBR       5       7       9
+mse              33.91%  33.33%  32.75%
+n_estimators_XGBR     100     200
+mse                52.75%  47.25%
+learning_rate_XGBR    0.05    0.10
+mse                 47.25%  52.75%
+max_depth_XGBC      16      32
+mse             83.48%  16.52%
+reg_lambda_XGBC      16      32
+mse              83.48%  16.52%
+subsample_XGBR     0.5     0.7
+mse             58.26%  41.74%
+colsample_bytree_XGBR     0.5     0.7
+mse                    58.26%  41.74%
+subsample_XGBC     0.7     0.9
+mse             41.74%  58.26%
+colsample_bytree_XGBC     0.7     0.9
+mse                    41.74%  58.26%
+min_child_weight_XGBR       3       5       7      9
+mse                    24.06%  24.64%  25.51%  25.8%
+min_child_weight_XGBC       3       5       7      9
+mse                    24.06%  24.64%  25.51%  25.8%
+reg_alpha_XGBR    0.01    0.10    1.00
+mse             35.07%  33.04%  31.88%
+reg_alpha_XGBC    0.01    0.10    1.00
+mse             35.07%  33.04%  31.88%
+n_estimators_XGBC     100     200
+mse                44.35%  55.65%
+learning_rate_XGBR.1    0.05    0.10
+mse                   55.65%  44.35%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
+XGB_逻辑回归_lasso.csv
+max_depth_XGB       3       5       7      9
+mse            22.22%  26.39%  26.39%  25.0%
+reg_lambda_XGB       3       5       7      9
+mse             22.22%  26.39%  26.39%  25.0%
+n_estimators_XGB     100
+mse               100.0%
+learning_rate_XGB     0.1
+mse                100.0%
+penalty_逻辑回归     l1     l2
+mse           62.5%  37.5%
+subsample_XGB     0.5     0.7     0.9
+mse            13.19%  39.58%  47.22%
+colsample_bytree_XGB     0.5     0.7     0.9
+mse                   13.19%  39.58%  47.22%
+min_child_weight_XGB     16      48      80      112     144
+mse                   27.78%  20.83%  19.44%  15.28%  16.67%
+reg_alpha_XGB     0.1     1.0
+mse            34.72%  65.28%
+C_逻辑回归    1.0     10.0
+mse     34.72%  65.28%
+degree      10
+mse     100.0%
+---------------------------------------------------------------------------------------------------
